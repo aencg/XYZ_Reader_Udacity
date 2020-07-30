@@ -1,8 +1,13 @@
 # XYZ_Reader 
 
-Udacity - Android Developer Nanodegree - Project: XYZ Reader
+## Udacity - Android Developer Nanodegree - Project: XYZ Reader
 
 Implement changes that will improve the UI and make it conform to Material Design
+
+<p float="left">
+<img raw="true" width="240" alt="screenshot" src="https://github.com/aencg/.github/blob/master/xyz_images/Screenshot_1.png?raw=true"> 
+<img raw="true"  width="240"  alt="screenshot2" src="https://github.com/aencg/.github/blob/master/xyz_images/Screenshot_2.png?raw=true"> 
+ </p>
 
 # Required Behavior
 - App uses the Design Support library and its provided widget types (FloatingActionButton, AppBarLayout, SnackBar, etc).
@@ -28,8 +33,5 @@ Implement changes that will improve the UI and make it conform to Material Desig
 - App conforms to common standards found in the Android Nanodegree General Project Guidelines.
 
 - App utilizes stable release versions of all libraries, Gradle, and Android Studio.
-<p float="left">
-<img raw="true" width="240" alt="screenshot" src="https://github.com/aencg/.github/blob/master/xyz_images/Screenshot_1.png?raw=true"> 
-<img raw="true"  width="240"  alt="screenshot2" src="https://github.com/aencg/.github/blob/master/xyz_images/Screenshot_2.png?raw=true"> 
- </p>
+
  
