@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="key_line_detail">72dp</dimen>
+    <dimen name="padding_start_detail_title">48dp</dimen>
+    <dimen name="padding_start_card_title">16dp</dimen>
+
+    <dimen name="article_body_height">960dp</dimen>
+
+    <dimen name="article_body_padding">@dimen/margin_padding_size_large</dimen>
+</resources>

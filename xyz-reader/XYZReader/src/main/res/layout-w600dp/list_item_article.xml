@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="4dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginBottom="4dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?selectableItemBackground">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <!--suppress AndroidLintContentDescription -->
+        <com.example.xyzreader.ui.DynamicHeightNetworkImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@color/primaryLightColor"
+            android:scaleType="centerCrop"  />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/scrim"
+
+            android:fitsSystemWindows="true" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="@dimen/padding_start_card_title"
+            >
+        <TextView
+            android:id="@+id/article_title"
+            style="@style/TextAppearance.MaterialComponents.Headline6"
+            android:fontFamily="sans-serif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingBottom="4dp"
+            android:textColor="@color/whiteTextColor"
+            android:minLines="1"/>
+
+        <TextView
+            android:id="@+id/article_subtitle"
+            style="@style/TextAppearance.MaterialComponents.Body2"
+            android:fontFamily="sans-serif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:minLines="1"
+            android:paddingBottom="16dp"
+            android:textColor="@color/whiteTextColor"
+            />
+        </LinearLayout>
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>

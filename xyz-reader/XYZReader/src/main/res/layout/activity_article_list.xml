@@ -1,0 +1,59 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Theme.Bacon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_primary"
+    android:fitsSystemWindows="true"
+
+    android:orientation="vertical">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_bar_main_height"
+        android:background="@color/theme_primary"
+        android:elevation="4dp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:expandedTitleMarginStart="64dp"
+            app:expandedTitleMarginEnd="64dp"
+
+
+
+            android:id="@+id/toolbar"
+            android:gravity="right"
+            android:minHeight="32dp"
+            android:layout_marginTop="32dp"
+            app:contentInsetStart="64dp"
+            app:layout_collapseMode="pin">
+
+            <ImageView
+                android:id="@+id/title_iv"
+                android:paddingRight="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:layout_gravity="right"
+                android:src="@drawable/logo" />
+        </com.google.android.material.appbar.MaterialToolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingVertical="@dimen/margin_padding_size_small"
+            android:paddingHorizontal="@dimen/margin_padding_size_medium"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:scrollbarStyle="outsideOverlay"
+            android:background="@color/primaryLightColor"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

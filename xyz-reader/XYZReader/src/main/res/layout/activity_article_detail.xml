@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/status_bar_height"
+    android:background ="@color/primaryLightColor">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+        <ImageButton
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:id="@+id/action_up"
+            android:layout_marginTop="@dimen/margin_padding_size_mini"
+            android:layout_marginBottom="@dimen/margin_padding_size_small"
+            android:layout_marginStart="@dimen/margin_padding_size_small"
+            android:layout_marginEnd="@dimen/margin_padding_size_medium"
+            android:layout_width="@dimen/standard_touch_size"
+            android:layout_height="@dimen/standard_touch_size"
+            android:background="?selectableItemBackgroundBorderless"
+            android:contentDescription="@string/up"
+            android:src="@drawable/ic_arrow_back"
+            />
+</FrameLayout>
