@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/XYZReader/XYZReader.iml" filepath="$PROJECT_DIR$/XYZReader/XYZReader.iml" group="xyz-reader-starter-code-master/XYZReader" />
-      <module fileurl="file://$PROJECT_DIR$/xyz-reader-starter-code-master.iml" filepath="$PROJECT_DIR$/xyz-reader-starter-code-master.iml" group="xyz-reader-starter-code-master" />
+      <module fileurl="file://$PROJECT_DIR$/XYZReader/XYZReader.iml" filepath="$PROJECT_DIR$/XYZReader/XYZReader.iml" group="xyz-reader/XYZReader" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/xyz-reader.iml" filepath="$PROJECT_DIR$/.idea/modules/xyz-reader.iml" group="xyz-reader" />
     </modules>
   </component>
 </project>
